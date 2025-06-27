@@ -34,7 +34,7 @@ function renderGallery() {
         <p class="${item.status === 'sold' ? 'sold' : 'available'}">
           ${item.status === 'sold' ? 'Sudah Dijual' : 'Belum Dijual'}
         </p>
-        <a class="whatsapp-btn" href="https://wa.me/6281234567899?text=Halo,%20saya%20tertarik%20dengan%20desain%20Anda%20nomor%20${index + 1}" target="_blank">Order via WhatsApp</a>
+        <a class="whatsapp-btn" href="https://wa.me/6285810188169?text=Halo,%20saya%20tertarik%20dengan%20desain%20Anda%20nomor%20${index + 1}" target="_blank">Order via WhatsApp</a>
 
         
         <div style="margin-top:1rem;">
