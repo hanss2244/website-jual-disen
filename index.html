@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Toko Desain Noir</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container" id="loginBox">
+  <h2>Login Admin</h2>
+  <input type="password" id="adminPassword" placeholder="Masukkan password admin" />
+  <button onclick="loginAdmin()">Login</button>
+</div>
+
+  <header>
+    <h1>Toko Jualan Desain noir</h1>
+  </header>
+
+  <main class="container">
+    <section class="form-upload">
+      <h2>Upload Desain (Admin)</h2>
+      <input type="file" id="uploadFile" />
+      <textarea placeholder="Deskripsi desain..."></textarea>
+      <select id="status">
+        <option value="available">Belum Dijual</option>
+        <option value="sold">Sudah Dijual</option>
+      </select>
+      <button onclick="uploadDesain()">Upload</button>
+    </section>
+
+    <section>
+      <h2>Galeri Desain silahkan pilih dan order di bawa ini</h2>
+      <div class="gallery" id="gallery">
+        <!-- Desain akan tampil di sini -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Toko Desain | Powered by Acode</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
